@@ -1,4 +1,4 @@
-const APIKey = 'erMQOfcekLj9l1dqh7pwjhZZshUtqV52'
+const APIKey = 'TxMLcmO9ejDxFAc6IU72OXANfHAMU7f7'
 const baseUrl = 'http://dataservice.accuweather.com/'
 
 const getCityUrl = cityName =>

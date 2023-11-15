@@ -6,7 +6,6 @@ const cityTemperatureContainers = document.querySelector('[data-js="city-tempera
 const timeIcon = document.querySelector('[data-js="time"]')
 const WetherIconIcon = document.querySelector('[data-js="time-icon"]')
 const img = document.createElement('img')
-
 const checkingClass = () => {
     if(cityCard.classList.contains('d-none')){
         cityCard.classList.remove('d-none')
