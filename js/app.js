@@ -12,9 +12,9 @@ const checkingClass = () => {
     }
 }
 
-const manipulandoDOM = async cityName => {
+const manipulandoDOM = async inputValue => {
     
-    const [{Key, LocalizedName}] = await getCityData(cityName) 
+    const [{Key, LocalizedName}] = await getCityData(inputValue) 
     const [{WeatherText, Temperature, IsDayTime, WeatherIcon}] = await getCityWeather(Key)
     img.setAttribute('src',`./src/icons/${WeatherIcon}.svg`)
     WetherIconIcon.insertAdjacentElement('afterbegin',img)
